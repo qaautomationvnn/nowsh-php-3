@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "!*.php", "use": "@now/static"},
+    { "src": "*.php", "use": "now-php@canary" }
+  ]
+}
